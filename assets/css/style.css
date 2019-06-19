@@ -1,0 +1,25 @@
+body {
+    background-image: url(../images/halloweenbgrnd.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: greenyellow;
+    display: flex;
+}
+
+.topHeader {
+    font-size: 50px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Creepster', cursive; 
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+
+#currentSong {
+    letter-spacing: 10px;
+    font-family: 'Creepster', cursive;
+}
