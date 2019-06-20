@@ -1,25 +1,47 @@
-body {
-    background-image: url(../images/halloweenbgrnd.jpg);
+/*Styling for the Main Header Container*/
+.container-fluid {
+    font-size: 5.8rem;
+    font-weight: 300;
+    font-family: 'Creepster',cursive;
+    line-height: 1.0;
+    text-align: center;
+    margin: auto;
+    color: whitesmoke;
+}
+/*Styling for the Body/HTML components to show background image*/
+body, html {
+    background-image: url("../images/halloweenbgrnd.jpg");
+    height: 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    color: greenyellow;
-    display: flex;
+    display: flexbox;
 }
-
-.topHeader {
-    font-size: 50px;
-    margin: auto;
+/*Styling for the Welcome Message font*/
+#welcomeMessage {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: 'Griffy', cursive;
     text-align: center;
-    font-family: 'Creepster', cursive; 
+    color: whitesmoke;
+    line-height: 1.6;
+    width: 100%;
 }
-
-.container {
-    margin: auto;
+/*Styling for the body of the game*/
+.gameBody {
     text-align: center;
+    margin: auto;
+    font-family: 'Butcherman', cursive;
+    font-size: 20px;
 }
 
 #currentSong {
-    letter-spacing: 10px;
-    font-family: 'Creepster', cursive;
+    letter-spacing: 15px;
+    font-family: 'Butcherman',cursive;
+    font-size: 25px;
+    color: black;
+    line-height: 1.6;
+    width: 100%;
+    margin: auto;
 }
+   
